@@ -31,7 +31,7 @@ The auto installation script will install all the dependancies and project files
 
 ```bash
 # Run this line and the weather station will be setup and installed
-curl -sSL https://raw.githubusercontent.com/ChristopherRush/stakebox-papirus/master/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/PiSupply/StakeBox-PaPiRus/master/install.sh | sudo bash
 ```
 
 ### Manual Installation
@@ -52,7 +52,7 @@ pip install python-bitcoinrpc
 ```
 4. Download the StakeBox PaPiRus display project files:
 ```bash
-git clone https://github.com/ChristopherRush/stakebox-papirus.git
+git clone https://github.com/PiSupply/StakeBox-PaPiRus.git
 ```
 5. In order for both the RPC server and the RPC client to connect to one another you will need to create a configuration file with all the server settings such as username and password. Run the following script from the StakeBox project file to create the config file if it is not already created:
 ```bash
